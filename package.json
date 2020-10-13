@@ -1,6 +1,6 @@
 {
 	"name": "@geek/jsonc",
-	"version": "0.0.12",
+	"version": "0.0.13",
 	"description": "JSONC and JSON utilities for JavaScript with Node.js and Axway Titanium. ",
 	"main": "jsonc.js",
 	"scripts": {
