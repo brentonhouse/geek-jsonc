@@ -1,0 +1,59 @@
+{
+	"name": "@geek/jsonc",
+	"version": "0.0.11",
+	"description": "JSONC and JSON utilities for JavaScript with Node.js and Axway Titanium. ",
+	"main": "jsonc.js",
+	"scripts": {
+		"list": "npm pack && tar -xvzf *.tgz && rm -rf package *.tgz",
+		"prep": "npm install --ignore-scripts && npm run list",
+		"prepublishOnly": "git pull && bump",
+		"test": "echo \"no test specified\" && exit 0"
+	},
+	"author": "Axway",
+	"maintainers": [
+		{
+			"name": "Brenton House",
+			"email": "brenton.house@gmail.com",
+			"url": "https://brenton.house"
+		}
+	],
+	"repository": {
+		"type": "git",
+		"url": "github:brentonhouse/geek-jsonc"
+	},
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/brentonhouse/geek-jsonc/issues"
+	},
+	"homepage": "https://github.com/brentonhouse/geek-jsonc#readme",
+	"keywords": [
+		"titanium",
+		"mobile",
+		"alloy",
+		"turbo",
+		"axway",
+		"appcelerator",
+		"ios",
+		"android",
+		"iphone",
+		"ipad",
+		"jsonc",
+		"titanium-package",
+		"brenton-house"
+	],
+	"titanium": {},
+	"devDependencies": {
+		"@geek/eslint-config": "0.0.18",
+		"eslint": "^7.11.0",
+		"eslint-plugin-import": "^2.22.1",
+		"eslint-plugin-jsdoc": "^30.6.4",
+		"eslint-plugin-promise": "^4.2.1",
+		"fs-extra": "^9.0.1",
+		"lodash": "^4.17.20"
+	},
+	"dependencies": {
+		"ansi-colors": "^4.1.1",
+		"fast-safe-stringify": "^2.0.7",
+		"jsonc-parser": "^2.3.1"
+	}
+}
