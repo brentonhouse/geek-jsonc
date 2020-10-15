@@ -1,3 +1,4 @@
+[](#readme)
 # @geek/jsonc
 
 ![GitHub stars](https://img.shields.io/github/stars/brentonhouse/geek-jsonc?style=social)
