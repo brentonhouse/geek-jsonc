@@ -5,6 +5,7 @@
 
 .dependabot
 .github
+.nvmrc
 
 tiapp.xml
 scripts
