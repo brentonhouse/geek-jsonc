@@ -5,6 +5,8 @@
 ![GitHub watchers](https://img.shields.io/github/watchers/brentonhouse/geek-jsonc?style=social)
 [![@geek/jsonc](https://img.shields.io/npm/v/@geek/jsonc.png)](https://www.npmjs.com/package/@geek/jsonc)
 [![Dependabot Status](https://api.dependabot.com/badges/status?host=github&repo=brentonhouse/geek-jsonc)](https://dependabot.com)
+![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
+[![npm](https://img.shields.io/npm/dm/@geek/jsonc.svg)]()
 
 > JSONC and JSON utilities for JavaScript with Node.js and Axway Titanium.
 
@@ -21,6 +23,7 @@
 * [Follow Brenton House](#follow-brenton-house)
 * [©️  &nbsp; Legal](#️--legal)
 
+--------
 
 ## 📓   &nbsp; Description
 

@@ -3,7 +3,6 @@ const jsonc = {};
 module.exports = jsonc;
 
 jsonc.parser = require(`jsonc-parser`);
-jsonc.parser2 = require(`jsonc-parser_${__filename}`);
 jsonc.stringify = (value, replacer, space) => require(`fast-safe-stringify`)(value, replacer, space);
 jsonc.colorify = (value, replacer, space) => require(`./color-json`)(value, { indent: space });
 
