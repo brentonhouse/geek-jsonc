@@ -1,13 +1,14 @@
 {
 	"name": "@geek/jsonc",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "JSONC and JSON utilities for JavaScript with Node.js and Axway Titanium. ",
 	"main": "jsonc.js",
 	"scripts": {
 		"list": "npm pack && tar -xvzf *.tgz && rm -rf package *.tgz",
 		"prep": "npm install --ignore-scripts && npm run list",
 		"prepublishOnly": "git pull && bump release",
-		"test": "npm run prep"
+		"test": "npm run prep",
+		"lint": "eslint . --fix"
 	},
 	"author": "Axway",
 	"maintainers": [
@@ -44,9 +45,9 @@
 	"titanium": {},
 	"devDependencies": {
 		"@geek/eslint-config": "0.0.17",
-		"eslint": "^7.11.0",
+		"eslint": "^7.12.1",
 		"eslint-plugin-import": "^2.22.1",
-		"eslint-plugin-jsdoc": "^30.6.5",
+		"eslint-plugin-jsdoc": "^30.7.3",
 		"eslint-plugin-promise": "^4.2.1",
 		"fs-extra": "^9.0.1",
 		"lodash": "^4.17.20"
