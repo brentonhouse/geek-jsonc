@@ -8,26 +8,26 @@
 ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
 [![npm](https://img.shields.io/npm/dm/@geek/jsonc.svg)]()
 
-> JSONC and JSON utilities for JavaScript with Node.js and Axway Titanium.
+> JSONC and JSON utilities for JavaScript with Node.js.
 
 ---
 
-* [📓   &nbsp; Description](#--description)
-* [🚀   &nbsp; Getting Started](#--getting-started)
-* [✨  &nbsp; Features](#--features)
-* [🎓  &nbsp;  Learn More](#--learn-more)
-	* [📚  &nbsp;  Related projects](#--related-projects)
-		* [🎟️  &nbsp; Modules for Node.js](#️--modules-for-nodejs)
-		* [🎟️  &nbsp; Modules for Node.js and Titanium Mobile](#️--modules-for-nodejs-and-titanium-mobile)
-* [📣  &nbsp; Feedback](#--feedback)
+* [📓   &nbsp; Description](#----description)
+* [🚀   &nbsp; Getting Started](#----getting-started)
+* [✨  &nbsp; Features](#---features)
+* [🎓  &nbsp;  Learn More](#----learn-more)
+	* [📚  &nbsp;  Related projects](#----related-projects)
+		* [🎟️  &nbsp; Modules for Node.js](#️---modules-for-nodejs)
+		* [🎟️  &nbsp; Modules for Node.js and Titanium Mobile](#️---modules-for-nodejs-and-titanium-mobile)
+* [📣  &nbsp; Feedback](#---feedback)
 * [Follow Brenton House](#follow-brenton-house)
-* [©️  &nbsp; Legal](#️--legal)
+* [©️  &nbsp; Legal](#️---legal)
 
 --------
 
 ## 📓   &nbsp; Description
 
-JSONC and JSON utilities for JavaScript with Node.js and Axway Titanium. 
+JSONC and JSON utilities for JavaScript with Node.js. 
 
 ## 🚀   &nbsp; Getting Started
 
@@ -62,12 +62,12 @@ npm install @geek/jsonc
 
 | project  	|  description 	|  npm	|
 |---	|---  |---	|
-| [@geek/cache](https://www.npmjs.com/package/@geek/cache)  	| Caching module for Node.js and Axway Titanium  	| [![@geek/cache](https://img.shields.io/npm/v/@geek/cache.png)](https://www.npmjs.com/package/@geek/cache)      |
-| [@geek/jsonc](https://www.npmjs.com/package/@geek/cache)  	| JSONC and JSON utilities for JavaScript with Node.js and Axway Titanium.  	| [![@geek/jsonc](https://img.shields.io/npm/v/@geek/jsonc.png)](https://www.npmjs.com/package/@geek/jsonc)      |
+| [@geek/cache](https://www.npmjs.com/package/@geek/cache)  	| Caching module for Node.js 	| [![@geek/cache](https://img.shields.io/npm/v/@geek/cache.png)](https://www.npmjs.com/package/@geek/cache)      |
+| [@geek/jsonc](https://www.npmjs.com/package/@geek/cache)  	| JSONC and JSON utilities for JavaScript with Node.js  	| [![@geek/jsonc](https://img.shields.io/npm/v/@geek/jsonc.png)](https://www.npmjs.com/package/@geek/jsonc)      |
 |  [@geek/jwt](https://www.npmjs.com/package/@geek/jwt) 	| JWT parser for JavaScript Node.js and Titanium native mobile  |  [![@geek/jwt](https://img.shields.io/npm/v/@geek/jwt.png)](https://www.npmjs.com/package/@geek/jwt)     |
-|  [@geek/logger](https://www.npmjs.com/package/@geek/logger) 	| Logging module for Node.js and Axway Titanium  |   [![@geek/logger](https://img.shields.io/npm/v/@geek/logger.png)](https://www.npmjs.com/package/@geek/logger)        |
+|  [@geek/logger](https://www.npmjs.com/package/@geek/logger) 	| Logging module for Node.js |   [![@geek/logger](https://img.shields.io/npm/v/@geek/logger.png)](https://www.npmjs.com/package/@geek/logger)        |
 | [@geek/mobile](https://www.npmjs.com/package/@geek/mobile)  	| Toolkit for creating, building, and managing mobile app projects.  	| [![@geek/mobile](https://img.shields.io/npm/v/@geek/mobile.png)](https://www.npmjs.com/package/@geek/mobile)    	|
-|  [@geek/retry](https://www.npmjs.com/package/@geek/retry) 	| Retry JavaScript functions and promises in Node.js and Axway Titanium  |   [![@geek/retry](https://img.shields.io/npm/v/@geek/retry.png)](https://www.npmjs.com/package/@geek/retry)        |
+|  [@geek/retry](https://www.npmjs.com/package/@geek/retry) 	| Retry JavaScript functions and promises in Node.js   |   [![@geek/retry](https://img.shields.io/npm/v/@geek/retry.png)](https://www.npmjs.com/package/@geek/retry)        |
 
 
 ## 📣  &nbsp; Feedback
