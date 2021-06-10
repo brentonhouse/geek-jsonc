@@ -1,6 +1,6 @@
 {
 	"name": "@geek/jsonc",
-	"version": "1.0.3",
+	"version": "1.0.4",
 	"description": "JSONC and JSON utilities for JavaScript with Node.js",
 	"main": "jsonc.js",
 	"scripts": {
