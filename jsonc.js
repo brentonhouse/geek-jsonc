@@ -1,5 +1,7 @@
 
 const jsonc = {};
+const _ = require(`lodash`);
+const fs = require(`fs-extra`);
 module.exports = jsonc;
 
 jsonc.parser = require(`jsonc-parser`);
@@ -15,6 +17,19 @@ jsonc.parse = (json, errors = [], { allowTrailingComma = true, allowEmptyContent
 	}
 
 	return result;
+
+};
+
+jsonc.readJsonc = async (file, options = {}) => {
+
+	const content = await fs.readFile(file, `utf8`);
+	const errors = [];
+	const { allowTrailingComma, allowEmptyContent, disallowComments } = options;
+	const json = jsonc.parse(content, errors, { allowTrailingComma, allowEmptyContent, disallowComments });
+	if (errors.length && options.throwErrors) {
+		throw errors[0];
+	}
+	return json;
 
 };
 
