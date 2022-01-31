@@ -12,7 +12,8 @@ jsonc.parse = (json, errors = [], { allowTrailingComma = true, allowEmptyContent
 
 	const result = jsonc.parser.parse(json, errors, { allowTrailingComma, allowEmptyContent, disallowComments });
 	if (errors.length) {
-		console.error(errors.error);
+		console.error(`error parsing jsonc`);
+		console.error(errors);
 		return null;
 	}
 
